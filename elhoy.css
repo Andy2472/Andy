@@ -272,7 +272,7 @@ header a:hover{
      width: 800px;
      height: 30px;
      margin-top: 70px;
-     margin-left: 180px;
+     margin-left: 70px;
  }
  .one .uno{
     color: rgb(0, 89, 255);
@@ -294,6 +294,18 @@ header a:hover{
      margin-left: 20px;
      color: rgb(0, 89, 255);
  }
+ .six .seis{
+  margin-left: 20px;
+  color: rgb(0, 89, 255);
+}
+.seven .siete{
+  margin-left: 20px;
+  color: rgb(0, 89, 255);
+}
+.eight .ocho{
+  margin-left: 20px;
+     color: rgb(0, 89, 255);
+}
 .numeros a span {
   background-color: rgba(170, 161, 161, 0.658);
   height: 25px;
