@@ -14,7 +14,7 @@ else if ( nombreprofe == "Jorge"){
     alert("Hola Profe, bienvenido, espero te parezca agradable mi página")
 }
 
-else if ( nombreprofe == "jorge"){
+else if ( nombreprofe == "JORGE"){
     alert("Hola Profe, bienvenido, espero te parezca agradable mi página")
 }
 
@@ -25,10 +25,13 @@ else if ( nombreprofe == "JORGE ESNEIDER"){
 else if ( nombreprofe == "jorge esneider"){
     alert("Hola Profe, bienvenido, espero te parezca agradable mi página")
 }
-else if ( nombreprofe == "jorge Esneider"){
+else if ( nombreprofe == "Jorge Esneider"){
     alert("Hola Profe, bienvenido, espero te parezca agradable mi página")
 }
 else if ( nombreprofe == "Jorge esneider"){
+    alert("Hola Profe, bienvenido, espero te parezca agradable mi página")
+}
+else if ( nombreprofe == "jorge Esneider"){
     alert("Hola Profe, bienvenido, espero te parezca agradable mi página")
 }
 
@@ -38,6 +41,10 @@ else if ( nombreprofe == "Esneider"){
 else if ( nombreprofe == "esneider"){
     alert("Hola Profe bienvenido, espero te parezca agradable mi página")
 }
+else if ( nombreprofe == "ESNEIDER"){
+    alert("Hola Profe bienvenido, espero te parezca agradable mi página")
+}
+
 
 else {
     alert("Hola compañer@ " + nombreprofe + " bienvenid@, espero te encuentres bien y te parezca agradable mi página")
