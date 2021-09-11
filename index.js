@@ -14,6 +14,10 @@ else if ( nombreprofe == "Jorge"){
     alert("Hola Profe, bienvenido, espero te parezca agradable mi página")
 }
 
+else if ( nombreprofe == "jorge"){
+    alert("Hola Profe, bienvenido, espero te parezca agradable mi página")
+}
+
 else if ( nombreprofe == "JORGE"){
     alert("Hola Profe, bienvenido, espero te parezca agradable mi página")
 }
