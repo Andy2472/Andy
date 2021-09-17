@@ -1,9 +1,24 @@
+const Toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 11000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer)
+        toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+})
 
+Toast.fire({
+    icon: 'success',
+    title: 'Recuerda usar el botón de menú para navegar por la págin web, o en la parte inferior aparecerá las páginas enumeradas'
+})
 /* var saludo = prompt ("Hola, buen día, dime tu nombre");
 
 alert("Hola " + saludo + " Bienvenido a mi página Web") */
 
-const profe = "Jorge Esneider"
+/* const profe = "Jorge Esneider"
 var nombreprofe = prompt ("¿Hola, cual es tu nombre?")
 
 if ( nombreprofe == profe){
@@ -54,7 +69,7 @@ else {
     alert("Hola compañer@ " + nombreprofe + " bienvenid@, espero te encuentres bien y te parezca agradable mi página")
 }
 
-
+ */
 
 
 
